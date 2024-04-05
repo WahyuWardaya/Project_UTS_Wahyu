@@ -46,6 +46,12 @@ nav .checkbox {
   display: none;
 }
 
+nav .checkbox i {
+  font-size: 2rem;
+  color: rgb(83, 86, 255);
+  cursor: pointer;
+}
+
 nav input {
   display: none;
 }
