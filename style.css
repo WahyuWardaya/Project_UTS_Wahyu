@@ -22,6 +22,7 @@ nav {
   left: 0;
   background-color: rgb(55, 140, 231);
   z-index: 99;
+  box-shadow: 5px 5px 5px rgb(103, 198, 227);
 }
 .navbar {
   max-width: 1200px;
