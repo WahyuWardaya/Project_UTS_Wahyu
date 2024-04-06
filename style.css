@@ -153,7 +153,7 @@ ul li a:hover {
 
 .image img {
   width: min(25rem, 80%);
-  border-radius: 100%;
+  border-radius: 10%;
   box-shadow: 8px 8px 5px rgb(83, 86, 255);
 }
 
