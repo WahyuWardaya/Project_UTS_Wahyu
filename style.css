@@ -136,8 +136,8 @@ ul li a:hover {
   cursor: pointer;
 }
 
-.aboutus {
-  color: rgb(83, 86, 255);
+.aboutus a {
+  color: rgb(0, 0, 0);
 }
 
 .aboutus:hover {
