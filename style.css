@@ -196,3 +196,57 @@ ul li a:hover {
     margin: auto;
   }
 }
+
+/* css about html */
+.section_about_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 12%;
+  margin-left: 5%;
+}
+
+.section_about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+}
+
+.section_about img {
+  width: 380px;
+  border-radius: 10%;
+}
+
+.about_konten {
+  flex: 1;
+  padding: 25px;
+  align-items: center;
+  margin-right: 5%;
+}
+
+.about_konten h1 {
+  font-size: 24px;
+}
+
+.about_konten p {
+  font-size: 16px;
+}
+
+.about_konten img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .section_about {
+    flex-direction: column;
+  }
+
+  .about_konten img {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
