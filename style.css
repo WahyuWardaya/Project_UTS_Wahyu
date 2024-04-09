@@ -224,7 +224,7 @@ ul li a:hover {
   flex: 1;
   padding: 25px;
   align-items: center;
-  margin-right: 5%;
+  margin-right: 2%;
 }
 
 .about_konten h1 {
@@ -241,14 +241,19 @@ ul li a:hover {
   margin-right: 20px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
   .section_about {
     flex-direction: column;
+    padding: 10px 0 8px 5px;
   }
 
   .about_konten img {
     margin-right: 0;
     margin-bottom: 20px;
+  }
+
+  .about_konten {
+    margin: 0;
   }
 }
 
