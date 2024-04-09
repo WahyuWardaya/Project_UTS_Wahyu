@@ -212,6 +212,7 @@ ul li a:hover {
   flex-direction: row;
   align-items: center;
   max-width: 100%;
+  margin-top: 20px;
 }
 
 .section_about img {
@@ -317,4 +318,29 @@ ul li a:hover {
 
 .section_contact .contact_form button:hover {
   background-color: rgb(103, 198, 227);
+}
+
+@media screen and (max-width: 768px) {
+  .section_contact .section_container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section_contact .konten {
+    text-align: center;
+    width: 100%;
+  }
+
+  .section_contact .contact_form input,
+  .section_contact .contact_form textarea {
+    width: calc(100% - 2rem);
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .section_contact .contact_form button {
+    width: calc(100% - 2rem);
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 }
