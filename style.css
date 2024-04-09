@@ -250,3 +250,71 @@ ul li a:hover {
     margin-bottom: 20px;
   }
 }
+
+/* css contact */
+.section_contact {
+  background-color: rgb(223, 245, 255);
+  padding: 50px 0;
+}
+
+.section_contact .section_container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section_contact .konten {
+  text-align: center;
+}
+
+.section_contact h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: rgb(7, 15, 43);
+  margin-bottom: 1rem;
+}
+
+.section_contact ul {
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.section_contact ul li {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.section_contact ul li strong {
+  font-weight: 600;
+}
+
+.section_contact .contact_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.section_contact .contact_form input,
+.section_contact .contact_form textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid rgb(169, 169, 169);
+}
+
+.section_contact .contact_form button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(55, 140, 231);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.section_contact .contact_form button:hover {
+  background-color: rgb(103, 198, 227);
+}
